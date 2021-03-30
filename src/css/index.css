@@ -96,12 +96,31 @@ table {
   border-spacing: 0;
 }
 
+body {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .header {
   background-color: #FFFFFF;
+  padding: 11px 0;
 }
 
 .header__menu {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -114,6 +133,30 @@ table {
 .header__row {
   display: flex;
   justify-content: space-between;
+}
+
+.header__list {
+  margin-right: 36px;
+}
+
+.header__list--right {
+  margin-right: 30px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__svg {
+  margin-left: 20px;
 }
 
 .hero {

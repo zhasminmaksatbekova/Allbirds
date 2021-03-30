@@ -1,0 +1,28 @@
+.header {
+  background-color: #FFFFFF;
+}
+
+.header__menu {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+  color: #212A2F;
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list {
+  margin-right: 36px;
+}
+
+.header__list--right {
+  margin-right: 30px;
+}

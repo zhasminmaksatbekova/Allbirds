@@ -1,7 +1,8 @@
 .header{
     background-color: #FFFFFF;
+    padding: 11px 0;
     &__menu{
-        font-family: 'Roboto', sans-serif;
+        font-family: $font;
         font-style: normal;
         font-weight: normal;
         font-size: 12px;
@@ -13,5 +14,20 @@
     &__row{
         display: flex;
         justify-content: space-between;
+    }
+    &__list{
+        margin-right: 36px;
+        &--right{
+            margin-right: 30px;
+        }
+    }
+    &__right{
+        @include flex-center();
+    }
+    &__left{
+        @include flex-center(); 
+    }
+    &__svg{
+        margin-left: 20px;
     }
 }

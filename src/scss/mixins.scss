@@ -1,0 +1,11 @@
+@mixin flex-center($acenter:center, $jcenter:center){
+    display: flex;
+    align-items: $acenter;
+    justify-content: $jcenter;
+}
+@mixin font($color, $size, $weight, $family){
+    color:$color;
+    font-size: $size;
+    font-weight: $weight;
+    font-family: $family;
+}
