@@ -1,0 +1,35 @@
+.nature{
+    padding: 47px 0 138px;
+    &__content{
+        @include flex-center();
+        flex-direction: column;
+    }
+    &__title{
+        margin-bottom: 18px;
+        &--little{
+            margin-bottom: 24px
+        }
+    }
+    &__button{
+        @include font ( #FFFFFF, 14px, normal, $font);
+        padding: 15px 40px;
+        cursor: pointer;
+        background-color: $color-black;
+        transition: all 500ms ease;
+        border: none;
+        margin: 30px 12px 119px 12px;
+        &:hover{
+            background-color: #FFFFFF;
+            color: $color-black;
+            transform: scale(1.2);
+            border: 3px solid $color-black;
+        }
+    }
+    &__buttons{
+        @include flex-center();
+    }
+    &__subtitle{
+        @include font ( $color-black, 22px, normal, $font);
+        margin: 17px 0 0 30px;
+    }
+}

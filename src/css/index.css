@@ -125,6 +125,13 @@ a {
   font-family: "Roboto", sans-serif;
 }
 
+.section__text {
+  color: #212A2F;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
 .section__button {
   color: #212A2F;
   font-size: 14px;
@@ -141,6 +148,22 @@ a {
   background-color: #212A2F;
   color: #FFFFFF;
   transform: scale(1.2);
+}
+
+.section__img {
+  background-image: url(../img/png/shoesbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.section__img--second {
+  background-image: url(../img/png/shoesbg1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 .header {
@@ -301,4 +324,57 @@ a {
 
 .favorites__buttons {
   margin-top: 130px;
+}
+
+.nature {
+  padding: 47px 0 138px;
+}
+
+.nature__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nature__title {
+  margin-bottom: 18px;
+}
+
+.nature__title--little {
+  margin-bottom: 24px;
+}
+
+.nature__button {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  padding: 15px 40px;
+  cursor: pointer;
+  background-color: #212A2F;
+  transition: all 500ms ease;
+  border: none;
+  margin: 30px 12px 119px 12px;
+}
+
+.nature__button:hover {
+  background-color: #FFFFFF;
+  color: #212A2F;
+  transform: scale(1.2);
+  border: 3px solid #212A2F;
+}
+
+.nature__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nature__subtitle {
+  color: #212A2F;
+  font-size: 22px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  margin: 17px 0 0 30px;
 }
