@@ -120,14 +120,14 @@ a {
 }
 
 .header__menu {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
   line-height: 21px;
   letter-spacing: 1.7px;
   text-transform: uppercase;
   color: #212A2F;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
 }
 
 .header__row {
@@ -164,4 +164,56 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+}
+
+.hero__title {
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  max-width: 754px;
+}
+
+.hero__subtitle {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  max-width: 250px;
+  padding-top: 11px;
+}
+
+.hero__content {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 260px 0 0;
+}
+
+.hero__button {
+  color: #212A2F;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  padding: 15px 40px;
+  margin: 150px 12px 0;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  border: none;
+  transition: all 500ms ease;
+}
+
+.hero__button:hover {
+  background-color: #212A2F;
+  color: #FFFFFF;
+  transform: scale(1.2);
+}
+
+.hero__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
 }

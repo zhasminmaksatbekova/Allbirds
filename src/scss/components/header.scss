@@ -2,14 +2,11 @@
     background-color: #FFFFFF;
     padding: 11px 0;
     &__menu{
-        font-family: $font;
         font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
         line-height: 21px;
         letter-spacing: 1.7px;
         text-transform: uppercase;
-        color: #212A2F;
+        @include font($color-black, 12px, normal, $font);
     }
     &__row{
         display: flex;

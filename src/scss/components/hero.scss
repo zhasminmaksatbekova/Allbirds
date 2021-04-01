@@ -3,4 +3,37 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    &__title{
+        @include font(#FFFFFF, 48px, normal, $font);
+        max-width: 754px;
+    }
+    &__subtitle{
+        @include font(#FFFFFF, 16px, normal, $font);
+        max-width: 250px;
+        padding-top: 11px;
+    }
+    &__content{
+        flex-direction: column;
+        @include flex-center();
+        padding: 260px 0 0;
+    }
+    &__button{
+        @include font ( $color-black, 14px, normal, $font);
+        padding: 15px 40px;
+        margin: 150px 12px 0;
+        cursor: pointer;
+        background-color: #FFFFFF;
+        border: none;
+        transition: all 500ms ease;
+        &:hover{
+            background-color: $color-black;
+            color: #FFFFFF;
+            transform: scale(1.2);
+        }
+    }
+    &__row{
+        @include flex-center();
+        justify-content: space-around;
+    }
 }
