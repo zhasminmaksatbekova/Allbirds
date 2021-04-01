@@ -12,3 +12,24 @@ a{
     width: 100%;
     margin: 0 auto;
 }
+.row{
+    display: flex;
+}
+.section{
+    &__title{
+        @include font ($color-black, 32px, normal, $font);
+    }
+    &__button{
+        @include font ( $color-black, 14px, normal, $font);
+        padding: 15px 40px;
+        cursor: pointer;
+        background-color: #FFFFFF;
+        border: none;
+        transition: all 500ms ease;
+        &:hover{
+            background-color: $color-black;
+            color: #FFFFFF;
+            transform: scale(1.2);
+        }
+    }
+}

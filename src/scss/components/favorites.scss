@@ -1,0 +1,53 @@
+.favorites{
+    padding: 115px 0 135px;
+    background-color: #FFFFFF;
+    &__title{
+        max-width: 210px;
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+    &__type{
+        @include font($color-black, 16px, normal, $font);
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin: 32px 125px 48px;
+    }
+    &__menu{
+        @include flex-center();
+    }
+    &__img{
+        margin-bottom: 17px;
+        position: absolute;
+    }
+    &__row{
+        display: flex;
+        align-items: center;
+    }
+    &__title--small{
+        @include font($color-black, 22px, normal, $font);
+        border-bottom: 1px solid rgb(211, 212, 213);
+        padding: 0 17px 10px;
+    }
+    &__description{
+         @include font($color-black, 14px, normal, $font);
+         margin: 10px 12px 0 0;
+    }
+    &__button{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 12px;
+        :nth-last-child(){
+            padding: 15px 35x;
+        }
+    }
+    &__buttons{
+        margin-top: 130px;
+        // display: none;
+        // :hover{
+        //     display: block;
+        // }
+    }
+}

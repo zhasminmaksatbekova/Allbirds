@@ -18,22 +18,11 @@
         @include flex-center();
         padding: 260px 0 0;
     }
-    &__button{
-        @include font ( $color-black, 14px, normal, $font);
-        padding: 15px 40px;
-        margin: 150px 12px 0;
-        cursor: pointer;
-        background-color: #FFFFFF;
-        border: none;
-        transition: all 500ms ease;
-        &:hover{
-            background-color: $color-black;
-            color: #FFFFFF;
-            transform: scale(1.2);
-        }
-    }
     &__row{
         @include flex-center();
         justify-content: space-around;
+    }
+    &__button{
+        margin: 150px 12px 0;
     }
 }

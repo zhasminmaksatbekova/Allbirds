@@ -114,6 +114,35 @@ a {
   margin: 0 auto;
 }
 
+.row {
+  display: flex;
+}
+
+.section__title {
+  color: #212A2F;
+  font-size: 32px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+.section__button {
+  color: #212A2F;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  padding: 15px 40px;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  border: none;
+  transition: all 500ms ease;
+}
+
+.section__button:hover {
+  background-color: #212A2F;
+  color: #FFFFFF;
+  transform: scale(1.2);
+}
+
 .header {
   background-color: #FFFFFF;
   padding: 11px 0;
@@ -192,28 +221,84 @@ a {
   padding: 260px 0 0;
 }
 
-.hero__button {
-  color: #212A2F;
-  font-size: 14px;
-  font-weight: normal;
-  font-family: "Roboto", sans-serif;
-  padding: 15px 40px;
-  margin: 150px 12px 0;
-  cursor: pointer;
-  background-color: #FFFFFF;
-  border: none;
-  transition: all 500ms ease;
-}
-
-.hero__button:hover {
-  background-color: #212A2F;
-  color: #FFFFFF;
-  transform: scale(1.2);
-}
-
 .hero__row {
   display: flex;
   align-items: center;
   justify-content: center;
   justify-content: space-around;
+}
+
+.hero__button {
+  margin: 150px 12px 0;
+}
+
+.favorites {
+  padding: 115px 0 135px;
+  background-color: #FFFFFF;
+}
+
+.favorites__title {
+  max-width: 210px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.favorites__type {
+  color: #212A2F;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 32px 125px 48px;
+}
+
+.favorites__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.favorites__img {
+  margin-bottom: 17px;
+  position: absolute;
+}
+
+.favorites__row {
+  display: flex;
+  align-items: center;
+}
+
+.favorites__title--small {
+  color: #212A2F;
+  font-size: 22px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  border-bottom: 1px solid #d3d4d5;
+  padding: 0 17px 10px;
+}
+
+.favorites__description {
+  color: #212A2F;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  margin: 10px 12px 0 0;
+}
+
+.favorites__button {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+.favorites__button :nth-last-child() {
+  padding: 15px 35x;
+}
+
+.favorites__buttons {
+  margin-top: 130px;
 }
