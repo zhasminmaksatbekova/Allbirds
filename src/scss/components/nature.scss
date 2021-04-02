@@ -24,6 +24,38 @@
             transform: scale(1.2);
             border: 3px solid $color-black;
         }
+        &--long{
+            padding: 15px 150px;
+            @include font ( #FFFFFF, 14px, normal, $font);
+            cursor: pointer;
+            background-color: $color-black;
+            text-transform: uppercase;
+            transition: all 500ms ease;
+            border: none;
+            margin: 26px 0 119px;
+            &:hover{
+                background-color: #FFFFFF;
+                color: $color-black;
+                transform: scale(1.2);
+                border: 3px solid $color-black;
+            }
+        }
+        &--longer{
+            padding: 15px 50px;
+            @include font ( #FFFFFF, 14px, normal, $font);
+            cursor: pointer;
+            background-color: $color-black;
+            text-transform: uppercase;
+            transition: all 500ms ease;
+            border: none;
+            margin: 26px 0 119px;
+            &:hover{
+                background-color: #FFFFFF;
+                color: $color-black;
+                transform: scale(1.2);
+                border: 3px solid $color-black;
+            }
+        }
     }
     &__buttons{
         @include flex-center();
@@ -31,5 +63,28 @@
     &__subtitle{
         @include font ( $color-black, 22px, normal, $font);
         margin: 17px 0 0 30px;
+        &--little{
+            @include font ( $color-black, 16px, normal, $font);
+            margin: 17px 0 0 30px;
+        }
+        &--long{
+            @include font ( $color-black, 16px, normal, $font);
+            margin: 17px 0 0 30px;
+            max-width: 348px;
+        }
+    }
+    &__text{
+        max-width: 320px;
+        margin: 18px 0 30px;
+        &--second{
+            max-width: 645px;
+            text-align: center;
+            margin: 22px 0 26px;
+        }
+        &--third{
+            max-width: 664px;
+            text-align: center;
+            margin: 22px 0 26px;
+        }
     }
 }

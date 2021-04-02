@@ -166,6 +166,14 @@ a {
   height: 100vh;
 }
 
+.section__img--third {
+  background-image: url(../img/png/shoesbg2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
 .header {
   background-color: #FFFFFF;
   padding: 11px 0;
@@ -365,6 +373,48 @@ a {
   border: 3px solid #212A2F;
 }
 
+.nature__button--long {
+  padding: 15px 150px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  background-color: #212A2F;
+  text-transform: uppercase;
+  transition: all 500ms ease;
+  border: none;
+  margin: 26px 0 119px;
+}
+
+.nature__button--long:hover {
+  background-color: #FFFFFF;
+  color: #212A2F;
+  transform: scale(1.2);
+  border: 3px solid #212A2F;
+}
+
+.nature__button--longer {
+  padding: 15px 50px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  background-color: #212A2F;
+  text-transform: uppercase;
+  transition: all 500ms ease;
+  border: none;
+  margin: 26px 0 119px;
+}
+
+.nature__button--longer:hover {
+  background-color: #FFFFFF;
+  color: #212A2F;
+  transform: scale(1.2);
+  border: 3px solid #212A2F;
+}
+
 .nature__buttons {
   display: flex;
   align-items: center;
@@ -377,4 +427,38 @@ a {
   font-weight: normal;
   font-family: "Roboto", sans-serif;
   margin: 17px 0 0 30px;
+}
+
+.nature__subtitle--little {
+  color: #212A2F;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  margin: 17px 0 0 30px;
+}
+
+.nature__subtitle--long {
+  color: #212A2F;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  margin: 17px 0 0 30px;
+  max-width: 348px;
+}
+
+.nature__text {
+  max-width: 320px;
+  margin: 18px 0 30px;
+}
+
+.nature__text--second {
+  max-width: 645px;
+  text-align: center;
+  margin: 22px 0 26px;
+}
+
+.nature__text--third {
+  max-width: 664px;
+  text-align: center;
+  margin: 22px 0 26px;
 }
