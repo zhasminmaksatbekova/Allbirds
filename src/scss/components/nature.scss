@@ -87,4 +87,15 @@
             margin: 22px 0 26px;
         }
     }
+    &__slides{
+        display: inline-block;
+        overflow: hidden;
+    }
+    &__img{
+        transition: 1s;
+        display: block;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
 }

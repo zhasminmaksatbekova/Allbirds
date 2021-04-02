@@ -39,15 +39,17 @@
         position: relative;
         margin: 0 auto;
         margin-top: 12px;
+        display: none;
         :nth-last-child(){
             padding: 15px 35x;
         }
     }
     &__buttons{
         margin-top: 130px;
-        // display: none;
-        // :hover{
-        //     display: block;
-        // }
+    }
+    &__forh{
+        :hover{
+            display: block;
+        }
     }
 }

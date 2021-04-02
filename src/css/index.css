@@ -219,6 +219,11 @@ a {
   margin-left: 20px;
 }
 
+.header__logo {
+  animation-name: logo;
+  animation-duration: 2s;
+}
+
 .hero {
   background-image: url(/src/img/png/herobg.png);
   background-position: center;
@@ -324,6 +329,7 @@ a {
   position: relative;
   margin: 0 auto;
   margin-top: 12px;
+  display: none;
 }
 
 .favorites__button :nth-last-child() {
@@ -332,6 +338,10 @@ a {
 
 .favorites__buttons {
   margin-top: 130px;
+}
+
+.favorites__forh :hover {
+  display: block;
 }
 
 .nature {
@@ -461,4 +471,95 @@ a {
   max-width: 664px;
   text-align: center;
   margin: 22px 0 26px;
+}
+
+.nature__slides {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.nature__img {
+  transition: 1s;
+  display: block;
+}
+
+.nature__img:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  background-color: #212A2F;
+  padding: 70px 0 90px;
+}
+
+.footer__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__label {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 6px;
+}
+
+.footer__input {
+  width: 302px;
+  height: 48px;
+  border-bottom-color: white;
+  color: white;
+  background-color: #4d5559;
+  border-radius: 0px;
+}
+
+.footer__button {
+  padding: 16px 30px;
+  background-color: #4d5559;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin-left: 12px;
+}
+
+.footer__email {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 90px;
+}
+
+.footer__title {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+
+.footer__link {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer__list {
+  margin-bottom: 16px;
+}
+
+.footer__text {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  max-width: 293px;
+}
+
+.footer__row {
+  flex-wrap: wrap;
 }

@@ -1,0 +1,51 @@
+.footer{
+    background-color: $color-black;
+    padding: 70px 0 90px;
+    &__form{
+        display: flex;
+        flex-direction: column;
+    }
+    &__label{
+        @include font ( #FFFFFF, 14px, normal, $font);
+        margin-bottom: 6px;
+    }
+    &__input{
+        width: 302px;
+        height: 48px;
+        border-bottom-color: rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        background-color: rgb(77, 85, 89);
+        border-radius: 0px;
+    }
+    &__button{
+        padding: 16px 30px;
+        background-color: rgb(77, 85, 89);
+        @include font ( #FFFFFF, 14px, normal, $font);
+        text-transform: uppercase;
+        margin-left: 12px;
+    }
+    &__email{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 90px;
+    }
+    &__title{
+        @include font ( #FFFFFF, 14px, normal, $font);
+        text-transform: uppercase;
+        margin-bottom: 21px;
+    }
+    &__link{
+        @include font ( #FFFFFF, 14px, normal, $font); 
+    }
+    &__list{
+        margin-bottom: 16px;
+    }
+    &__text{
+        @include font ( #FFFFFF, 12px, normal, $font); 
+        max-width: 293px;
+    }
+    &__row{
+        flex-wrap: wrap;
+    }
+}

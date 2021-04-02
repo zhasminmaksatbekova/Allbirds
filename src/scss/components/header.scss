@@ -27,4 +27,8 @@
     &__svg{
         margin-left: 20px;
     }
+    &__logo{
+        animation-name: logo;
+        animation-duration: 2s;
+    }
 }
