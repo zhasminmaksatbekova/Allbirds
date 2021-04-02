@@ -44,8 +44,13 @@
     &__text{
         @include font ( #FFFFFF, 12px, normal, $font); 
         max-width: 293px;
+        line-height: 18px;
     }
     &__row{
         flex-wrap: wrap;
+        margin-bottom: 85px;
+    }
+    &__img{
+        margin-right: 24px;
     }
 }

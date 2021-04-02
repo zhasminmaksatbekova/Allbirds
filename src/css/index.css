@@ -372,7 +372,7 @@ a {
   cursor: pointer;
   background-color: #212A2F;
   transition: all 500ms ease;
-  border: none;
+  border: 3px solid transparent;
   margin: 30px 12px 119px 12px;
 }
 
@@ -393,7 +393,7 @@ a {
   background-color: #212A2F;
   text-transform: uppercase;
   transition: all 500ms ease;
-  border: none;
+  border: 3px solid transparent;
   margin: 26px 0 119px;
 }
 
@@ -414,7 +414,7 @@ a {
   background-color: #212A2F;
   text-transform: uppercase;
   transition: all 500ms ease;
-  border: none;
+  border: 3px solid transparent;
   margin: 26px 0 119px;
 }
 
@@ -558,8 +558,14 @@ a {
   font-weight: normal;
   font-family: "Roboto", sans-serif;
   max-width: 293px;
+  line-height: 18px;
 }
 
 .footer__row {
   flex-wrap: wrap;
+  margin-bottom: 85px;
+}
+
+.footer__img {
+  margin-right: 24px;
 }
